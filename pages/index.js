@@ -80,16 +80,16 @@ const Home = () => {
       <>
       <GlobalStyles/>
         <Head>
-          <title>Descentralizado | Home</title>
-          <meta name="description" content="Descentralizado o maior portal Brasileiro sobre Blockchain e suas tecnologias"/>
+          <title>De-Dev-para-Dev | Home</title>
+          <meta name="description" content="O melhor da comunidade dev você encontra aqui."/>
           <meta name="robots" content="index, follow"/>
-          <meta name="author" content="Velance ( André Rodrigues https://xordevweb.com.br )"/>
+          <meta name="author" content="(André Rodrigues https://xordevweb.com.br)"/>
           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        </Head>
+        </Head>  
         <Menu>
           <ContainerMenu>
               <Logo
-                logoName="Descentralizado"
+                logoName="De-Dev-para-Dev"
               />
               <LinksHome/>
               <Actions>
@@ -128,15 +128,6 @@ const Home = () => {
             </RowCarousel>
           </Item>
         </Carousel>
-        <Empresa
-          BigAbout="About-Us"
-          TitleAbout="A Empresa"
-          AboutText="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
-          BigService="Services"
-          TitleServices="Serviços"
-          ServicesText="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."
-
-        />
         <Content>
           <article>
             <Container>

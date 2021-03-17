@@ -2,7 +2,7 @@ import style from "styled-components"
 
 const Menu = style.nav`
     background: ${({ theme }) => theme.body};
-    padding: 10px 0;
+    padding: 20px 0;
     position: fixed;
     width: 100%;
     z-index: 1;

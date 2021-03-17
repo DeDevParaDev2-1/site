@@ -5,7 +5,7 @@ const ContainerLinks = style.ul`
     display: none;
     @media(min-width: 700px){
         display: block;
-        width: 40%;
+        width: 50%;
     }
 `;
 const Item = style.li`
@@ -26,17 +26,22 @@ const LinksHome = () => {
             </Item>
             <Item>
                 <Link href="/">
-                    <a>A Empresa</a>
+                    <a>O Projeto</a>
                 </Link>
             </Item>
             <Item>
                 <Link href="/">
-                    <a>Serviços</a>
+                    <a>Lives</a>
+                </Link>
+            </Item>
+            <Item>
+                <Link href="/blog">
+                    <a>Artigos</a>
                 </Link>
             </Item>
             <Item>
                 <Link href="/">
-                    <a>Contatos</a>
+                    <a>Contribua</a>
                 </Link>
             </Item>
             <Item>
