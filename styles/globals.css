@@ -11,7 +11,7 @@ a {
 }
 audio, img, iframe, video{
   display: inline-block;
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
@@ -19,16 +19,24 @@ audio, img, iframe, video{
 Custom global carousel
 */
 .rec-arrow{
-  color: #a0a0a0!important;
+  background-color: #b9e684!important;
+  color: #fff!important;
 }
 .rec-arrow:hover{
-  background-color: #a4bcf7!important;
+  background-color: #b9e684!important;
 }
 .rec-dot{
-  background-color: #a4bcf7!important;
-  border: 1px solid #86A4F1!important;
+  background-color: #b9e684!important;
+  border: 1px solid #b9e684!important;
+  box-shadow: 0 0 1px 3px #4caf50!important;
+  display: none!important;
 }
 .rec-dot:focus {
+  box-shadow: 0 0 1px 3px #b9e684!important;
+  color: #fff;
   cursor: pointer;
-  box-shadow: 0 0 1px 3px #86A4F1!important;
+}
+/*Carousel*/
+.rec-carousel{
+  min-height: 50vh;
 }

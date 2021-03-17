@@ -11,8 +11,8 @@ const ContentText = (props) => {
             <p>{props.descriptionBanner}</p>
             <Link href="/">
                 <ButtonBanner>
-                    <img className="icone_mao" src="/icons/mao.png" alt="icone-mao"/> 
                     <span>{props.linkBanner}</span>
+                    <img className="icone_mao" src="/icons/mao.png" alt="icone-mao"/> 
                 </ButtonBanner>
             </Link>
         </ContainerText>

@@ -12,6 +12,16 @@ const Item = style.li`
     display: block;
     list-style-type: none;
     padding: 10px 20px;
+    transition: border 0.5s linear;
+    &:hover{
+        border-bottom: 4px solid #27ae60;
+    }
+    a{
+        transition: color 0.5s ease-in-out;
+        &:hover{
+            color: #27ae60;
+        }
+    }
     @media(min-width: 700px){
         display: inline;
     }

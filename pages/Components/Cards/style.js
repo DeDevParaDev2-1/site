@@ -18,21 +18,15 @@ const CardContainer = style.div`
     justify-content: center;
 `;
 const CardHeader = style.div`
-    margin-bottom: 5rem;
-    position: relative;
+    margin-bottom: 1rem;
     width: 90%;
     img{
         border-radius: 5px;
         display: inline-block;
-        position: absolute;
-        left: 0;
-        top: 0;
         width: 90%;
     }
     @media(min-width: 700px){
         img{
-            left: 0;
-            top: -98px;
             width: 18.3vw;
         }
     }
@@ -44,16 +38,20 @@ const ContainerText = style.div`
     margin-left: 10px;
     width: 90%;
     a{
-        background: #86A4F1;
+        background: #2ecc71;
         border-radius: 24px;
         color: #fff;
         display: inline-block;
         font-size: .89rem;
         font-weight: 600;
-        padding: .67rem;
-        text-align: center;
         margin-top: 10px;
         min-width: 120px;
+        padding: .67rem;
+        text-align: center;
+        transition: background-color 1s linear;
+        &:hover{
+            background-color: #27ae60;
+        }
     }
     h2{
         font-size: 2vw;

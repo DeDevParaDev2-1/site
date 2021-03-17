@@ -9,14 +9,14 @@ export const GlobalStyles = createGlobalStyle`
   }
 `
 export const lightTheme = {
-    body: '#f2f9ff',
+    body: '#fff',
     text: '#263238',
     ShadowCard: '#eee',
     toggleBorder: '#FFF',
     background: '#f2f9ff',
     BackgroundCard: '#fff',
     ColorTitle: 'rgba(134, 164, 241, 0.11)',
-    BackgroundRodape: '#daeeff',
+    BackgroundRodape: '#27ae60',
     BackgroundArticle: '#fff',
     BackgroundSidebar: '#fff',
     Borderprofile: '#0000002b',
@@ -49,7 +49,7 @@ export const Content = style.div`
   }
   @media(min-width: 700px){
     article{
-      padding: 4rem 0;
+      padding: 6rem 0;
     }
     article .imagem_about{
       margin-left: 10rem;

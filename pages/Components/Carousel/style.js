@@ -2,7 +2,7 @@ import style from 'styled-components'
 
 const ContainerImg = style.div`
     @media(min-width: 700px){
-        width: 50%;
+        width: 40%;
     }
 `;
 const ContainerText = style.div`
@@ -20,16 +20,25 @@ const ContainerText = style.div`
     }
 `;
 const ButtonBanner = style.a`
+    background-color: #8bc34a;
+    border-radius: 3rem;
+    color: #333;
     display: flex;
+    font-weight: 600;
+    justify-content: center;
     margin-top: 15px;
+    padding: 14px 1rem;
+    min-width: 70%;
     span{
         display: inline-block;
         font-size: 1rem;
-        margin-left: 10px;
+        margin-right: 10px;
     }
     @media(min-width: 700px){
+        min-width: 51%;
+        max-width: 60%;
         .icone_mao{
-            width: 6%;
+            width: 8%;
         }
         span{
             font-size: 1rem;
@@ -38,6 +47,7 @@ const ButtonBanner = style.a`
 `;
 const RowCarousel = style.div`
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     @media(min-width: 700px){
@@ -45,7 +55,7 @@ const RowCarousel = style.div`
         .imagem_banner{
             position: relative;
             top: -2rem;
-            width: 50%;
+            width: 40%;
         }
     }
 `;

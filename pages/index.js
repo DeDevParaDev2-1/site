@@ -102,9 +102,9 @@ const Home = () => {
           <Item>
             <RowCarousel>
               <ContentText
-                titleBanner="Tecnologia e educação andam lado a lado aqui!"
-                descriptionBanner="Aprenda sobre a tecnologia Blockchain em nossos posts, diversos artigos para quem quer conhecer desde o básico ao avançado."
-                linkBanner="Confira nosso blog"
+                titleBanner="Aprenda a desenvolver layouts incríveis usando as tops tecnologias da web."
+                descriptionBanner="Aprenda a desenvolver layouts incríveis com as ferramentas que são destaque no mercado web."
+                linkBanner="Confira os detalhes desse curso"
               />
               <img 
                 src="/imgs/banner1.png"
@@ -116,12 +116,12 @@ const Home = () => {
           <Item>
             <RowCarousel>
               <ContentText
-                titleBanner="Tecnologia e educação andam lado a lado aqui!"
-                descriptionBanner="Aprenda sobre a tecnologia Blockchain em nossos posts, diversos artigos para quem quer conhecer desde o básico ao avançado."
-                linkBanner="Confira nosso blog"
+                titleBanner="Aprenda tudo sobre o ecossistema reativo no nosso guia"
+                descriptionBanner="Em nosso guia, você pode aprender as boas práticas de todo o ecossistema React!"
+                linkBanner="Confira o guia agora mesmo"
               />
               <img 
-                src="/imgs/banner1.png"
+                src="/imgs/react.png"
                 className="imagem_banner"
                 alt="Imagem-banner"
               />
@@ -149,14 +149,14 @@ const Home = () => {
                             <CardContainer>
                               <CardHeader>
                                 <img
-                                  src="https://previews.123rf.com/images/peshkov/peshkov1803/peshkov180300176/97244483-creative-glowing-blockchain-wallpaper-cyberspace-and-cryptocurrency-concept-3d-rendering.jpg"
+                                  src="https://wallpapercave.com/wp/wp4923979.png"
                                   alt="imagem-card"
                                 />
                               </CardHeader>
                               <CardBody
-                                TitleCard="Titulo aqui"
-                                DescriptionCard="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos."
-                                nameButton="Confira"
+                                TitleCard="Entendendo o uso de props no React"
+                                DescriptionCard="Aprenda a fazer layouts bem distribuídos usando os recursos da props no React."
+                                nameButton="Confira o artigo"
                               />
                             </CardContainer>
                           </Card>
@@ -166,13 +166,14 @@ const Home = () => {
                             <CardContainer>
                               <CardHeader>
                                 <img
-                                  src="https://previews.123rf.com/images/peshkov/peshkov1803/peshkov180300176/97244483-creative-glowing-blockchain-wallpaper-cyberspace-and-cryptocurrency-concept-3d-rendering.jpg"
+                                  src="https://wallpaperaccess.com/full/3910947.jpg"
                                   alt="imagem-card"
                                 />
                               </CardHeader>
                               <CardBody
-                                TitleCard="Titulo aqui"
-                                DescriptionCard="Teste de conteúdo"
+                                TitleCard="Convertendo componentes React para Angular de maneira fácil."
+                                DescriptionCard="Veja como adaptar o ecossistema react dentro Angular de maneira simples."
+                                nameButton="Confira o artigo"
                               />
                             </CardContainer>
                           </Card>
@@ -182,13 +183,14 @@ const Home = () => {
                             <CardContainer>
                               <CardHeader>
                                 <img
-                                  src="https://previews.123rf.com/images/peshkov/peshkov1803/peshkov180300176/97244483-creative-glowing-blockchain-wallpaper-cyberspace-and-cryptocurrency-concept-3d-rendering.jpg"
+                                  src="https://res.cloudinary.com/practicaldev/image/fetch/s--OK5nAo07--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/rmqgubejyi0rjkn87moo.png"
                                   alt="imagem-card"
                                 />
                               </CardHeader>
                               <CardBody
-                                TitleCard="Titulo aqui"
-                                DescriptionCard="Teste de conteúdo"
+                                TitleCard="Aprenda a criar um aplicativo com banco de dados"
+                                DescriptionCard="Aprenda a criar um aplicativo de forma simples usando o React Native, PHP e Mysql"
+                                nameButton="Confira o artigo"
                               />
                             </CardContainer>
                           </Card>
@@ -232,8 +234,8 @@ const Home = () => {
           </article>
         </Content>
         <Rodape
-          Telefone="(xx) xxxx-xxxx"
-          Email="emailaqui.com.br"
+          Telefone="(37) 99172-4835"
+          Email="contatodedevparadev@gmail.com"
         />
       </>
   </ThemeProvider>

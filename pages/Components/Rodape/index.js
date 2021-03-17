@@ -56,7 +56,12 @@ const Rodape = (props) => {
                         </LinksRodape>
                     </Col>
                     <Col Desk="6">
-                    <div class="elfsight-app-2c906a1e-01b6-499e-bd7e-7020455ef431"></div>
+                    <div className="elfsight-app-2c906a1e-01b6-499e-bd7e-7020455ef431"></div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col Desk="12">
+                        <p>&copy; Todos direitos reservados <a href="https://xordevweb.com.br" target="_blank">André Rodrigues</a></p>
                     </Col>
                 </Row>
             </Container>
